@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#tablero {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background: black;
+    border: 5px solid white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pala {
+    position: absolute;
+    width: 10px;
+    height: 80px;
+    background: white;
+    border-radius: 5px;
+}
+
+#pala1 {
+    left: 10px;
+    bottom: 160px;
+}
+
+#pala2 {
+    right: 10px;
+    bottom: 160px;
+}
+
+#pelota {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: red;
+    border-radius: 50%;
+}
+
+#puntuacion {
+    position: absolute;
+    top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
